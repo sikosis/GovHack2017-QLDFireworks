@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "89A289D11F2B3A6500EE9E31"
-               BuildableName = "Brisbane Fireworks.app"
-               BlueprintName = "Brisbane Fireworks"
-               ReferencedContainer = "container:Brisbane Fireworks.xcodeproj">
+               BuildableName = "QLD Fireworks.app"
+               BlueprintName = "QLD Fireworks"
+               ReferencedContainer = "container:QLD Fireworks.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89A289D11F2B3A6500EE9E31"
-            BuildableName = "Brisbane Fireworks.app"
-            BlueprintName = "Brisbane Fireworks"
-            ReferencedContainer = "container:Brisbane Fireworks.xcodeproj">
+            BuildableName = "QLD Fireworks.app"
+            BlueprintName = "QLD Fireworks"
+            ReferencedContainer = "container:QLD Fireworks.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89A289D11F2B3A6500EE9E31"
-            BuildableName = "Brisbane Fireworks.app"
-            BlueprintName = "Brisbane Fireworks"
-            ReferencedContainer = "container:Brisbane Fireworks.xcodeproj">
+            BuildableName = "QLD Fireworks.app"
+            BlueprintName = "QLD Fireworks"
+            ReferencedContainer = "container:QLD Fireworks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "89A289D11F2B3A6500EE9E31"
-            BuildableName = "Brisbane Fireworks.app"
-            BlueprintName = "Brisbane Fireworks"
-            ReferencedContainer = "container:Brisbane Fireworks.xcodeproj">
+            BuildableName = "QLD Fireworks.app"
+            BlueprintName = "QLD Fireworks"
+            ReferencedContainer = "container:QLD Fireworks.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

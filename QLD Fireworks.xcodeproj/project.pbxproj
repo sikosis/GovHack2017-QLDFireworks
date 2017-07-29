@@ -51,7 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89A289D21F2B3A6500EE9E31 /* Brisbane Fireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Brisbane Fireworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A289D21F2B3A6500EE9E31 /* QLD Fireworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QLD Fireworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89A289D61F2B3A6500EE9E31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89A289D81F2B3A6500EE9E31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		89A289D91F2B3A6500EE9E31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		89A289C91F2B3A6500EE9E31 = {
 			isa = PBXGroup;
 			children = (
-				89A289D41F2B3A6500EE9E31 /* Brisbane Fireworks */,
+				89A289D41F2B3A6500EE9E31 /* QLD Fireworks */,
 				89A289D31F2B3A6500EE9E31 /* Products */,
 				89A28A1D1F2B406F00EE9E31 /* Frameworks */,
 			);
@@ -147,12 +147,12 @@
 		89A289D31F2B3A6500EE9E31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89A289D21F2B3A6500EE9E31 /* Brisbane Fireworks.app */,
+				89A289D21F2B3A6500EE9E31 /* QLD Fireworks.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89A289D41F2B3A6500EE9E31 /* Brisbane Fireworks */ = {
+		89A289D41F2B3A6500EE9E31 /* QLD Fireworks */ = {
 			isa = PBXGroup;
 			children = (
 				89A289F91F2B3D9000EE9E31 /* Libraries */,
@@ -173,6 +173,7 @@
 				89A289E61F2B3A6500EE9E31 /* Info.plist */,
 				89A289D51F2B3A6500EE9E31 /* Supporting Files */,
 			);
+			name = "QLD Fireworks";
 			path = "Brisbane Fireworks";
 			sourceTree = "<group>";
 		};
@@ -264,9 +265,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89A289D11F2B3A6500EE9E31 /* Brisbane Fireworks */ = {
+		89A289D11F2B3A6500EE9E31 /* QLD Fireworks */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89A289E91F2B3A6500EE9E31 /* Build configuration list for PBXNativeTarget "Brisbane Fireworks" */;
+			buildConfigurationList = 89A289E91F2B3A6500EE9E31 /* Build configuration list for PBXNativeTarget "QLD Fireworks" */;
 			buildPhases = (
 				89A289CE1F2B3A6500EE9E31 /* Sources */,
 				89A289CF1F2B3A6500EE9E31 /* Frameworks */,
@@ -276,9 +277,9 @@
 			);
 			dependencies = (
 			);
-			name = "Brisbane Fireworks";
+			name = "QLD Fireworks";
 			productName = "Brisbane Fireworks";
-			productReference = 89A289D21F2B3A6500EE9E31 /* Brisbane Fireworks.app */;
+			productReference = 89A289D21F2B3A6500EE9E31 /* QLD Fireworks.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -302,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 89A289CD1F2B3A6500EE9E31 /* Build configuration list for PBXProject "Brisbane Fireworks" */;
+			buildConfigurationList = 89A289CD1F2B3A6500EE9E31 /* Build configuration list for PBXProject "QLD Fireworks" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -315,7 +316,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89A289D11F2B3A6500EE9E31 /* Brisbane Fireworks */,
+				89A289D11F2B3A6500EE9E31 /* QLD Fireworks */,
 			);
 		};
 /* End PBXProject section */
@@ -511,7 +512,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89A289CD1F2B3A6500EE9E31 /* Build configuration list for PBXProject "Brisbane Fireworks" */ = {
+		89A289CD1F2B3A6500EE9E31 /* Build configuration list for PBXProject "QLD Fireworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89A289E71F2B3A6500EE9E31 /* Debug */,
@@ -520,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89A289E91F2B3A6500EE9E31 /* Build configuration list for PBXNativeTarget "Brisbane Fireworks" */ = {
+		89A289E91F2B3A6500EE9E31 /* Build configuration list for PBXNativeTarget "QLD Fireworks" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				89A289EA1F2B3A6500EE9E31 /* Debug */,

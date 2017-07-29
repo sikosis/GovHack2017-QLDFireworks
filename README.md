@@ -24,4 +24,8 @@ Phil Greenway (twitter: [@sikosis](https://twitter.com/sikosis))
 
 #### Yes. When finished it will be submitted to Apple's App Store under my account.
 
+### In your pitch video you mention FOMO. What is FOMO?
+
+#### Fear Of Missing Out. [urbandictionary](http://www.urbandictionary.com/define.php?term=fomo)
+
 

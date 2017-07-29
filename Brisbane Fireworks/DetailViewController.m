@@ -59,14 +59,10 @@
     self.navigationItem.leftBarButtonItem.tintColor = [UIColor whiteColor];
     self.navigationItem.rightBarButtonItem.tintColor = [UIColor whiteColor];
     
-//    navItem.rightBarButtonItem = rightButton;
-
     mapView.delegate = self;
     mapView.showsUserLocation = YES;
     
-    // TODO: search fulladdress
-
-    CLLocationCoordinate2D annotationCoord;
+    //CLLocationCoordinate2D annotationCoord; // needed globally
     
     annotationCoord = [self getLocationFromAddressString:fulladdress];
     
@@ -174,10 +170,19 @@
     
     if ([eventStore respondsToSelector:@selector(requestAccessToEntityType:completion:)]) {
         // iOS 6 and later
+        
+        
         [eventStore requestAccessToEntityType:EKEntityTypeEvent completion:^(BOOL granted, NSError *error) {
             if (granted) {
                 event.title = [NSString stringWithFormat:@"🎇 Fireworks - %@",_fwsuburb];
-//                event.URL = [NSURL URLWithString:_turl];
+                //NSString *evURL = [NSString stringWithFormat:@"http://maps.apple.com/?sll=%f,%f",annotationCoord.latitude,annotationCoord.longitude];
+
+                NSString *encodedAddress = [fulladdress stringByReplacingOccurrencesOfString:@" " withString:@"+"];
+                
+                NSString *evURL = [NSString stringWithFormat:@"http://maps.apple.com/?saddr=Current+Location&daddr=%@",encodedAddress];
+                
+                
+                event.URL = [NSURL URLWithString:evURL];
 
                 NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
                 [dateFormatter setDateFormat:@"cccc d LLLL y k:m"];
@@ -197,7 +202,26 @@
                 NSError *err = nil;
                 [eventStore saveEvent:event span:EKSpanThisEvent error:&err];
                 
+
+                
                 NSLog(@"%@",[err localizedDescription]);
+                
+                UIAlertController *alert = [UIAlertController
+                                             alertControllerWithTitle:@"Calendar Event"
+                                             message:@"Event added successfully."
+                                             preferredStyle:UIAlertControllerStyleAlert];
+                
+                UIAlertAction* okButton = [UIAlertAction
+                                            actionWithTitle:@"OK"
+                                            style:UIAlertActionStyleDefault
+                                            handler:^(UIAlertAction * action) {
+                                                // nada
+                                            }];
+                
+                [alert addAction:okButton];
+                
+                [self presentViewController:alert animated:YES completion:nil];
+                
                 // [self performCalendarActivity:eventStore];
             } else {
                 // code here for when the user does NOT allow your app to access the calendar

@@ -16,6 +16,8 @@
 
 @interface DetailViewController : ViewController <MKMapViewDelegate,CLLocationManagerDelegate,MFMailComposeViewControllerDelegate> {
     IBOutlet MKMapView *mapView;
+    CLLocationCoordinate2D annotationCoord;
+    
 
     NSString *_fwdate;
     NSString *_fwaddress;
