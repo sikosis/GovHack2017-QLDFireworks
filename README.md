@@ -20,6 +20,8 @@ Phil Greenway (twitter: [@sikosis](https://twitter.com/sikosis))
 
 #### Because I originally thought the dataset was only for Brisbane but was actually for the whole of Queensland.
 
+### Will you be submitting this to the App Store?
 
+#### Yes. When finished it will be submitted awaiting approval.
 
 
