@@ -22,6 +22,6 @@ Phil Greenway (twitter: [@sikosis](https://twitter.com/sikosis))
 
 ### Will you be submitting this to the App Store?
 
-#### Yes. When finished it will be submitted awaiting approval.
+#### Yes. When finished it will be submitted to Apple's App Store under my account.
 
 
