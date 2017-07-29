@@ -12,6 +12,10 @@ Phil Greenway (twitter: [@sikosis](https://twitter.com/sikosis))
 
 ## FAQ
 
+### What version of iOS does this app support?
+
+#### iOS 9.1+
+
 ### Why is the project file called Brisbane Fireworks but the app is called QLD Fireworks?
 
 #### Because I originally thought the dataset was only for Brisbane but was actually for the whole of Queensland.
