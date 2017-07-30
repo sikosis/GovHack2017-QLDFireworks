@@ -16,13 +16,17 @@ Phil Greenway (twitter: [@sikosis](https://twitter.com/sikosis))
 
 #### iOS 9.1+
 
+### Why can't you share information with Facebook?
+
+#### Unfortunately, Facebook does not allow you to prepopulate text fields with information, so it's up to you to put something meaningful in there. Sorry.
+
 ### Why is there a folder called Brisbane Fireworks in the project but the app is called QLD Fireworks?
 
-#### Because I originally thought the dataset was only for Brisbane but was actually for the whole of Queensland.
+#### Because I originally thought the dataset was only for Brisbane but it was actually for the whole of Queensland.
 
-### Will you be submitting this to the App Store?
+### Will you be submitting this App to Apple's App Store?
 
-#### Yes. When finished it will be submitted to Apple's App Store under my account.
+#### Yes. When it has been finished, it will be submitted to the App Store under my account.
 
 ### In your [pitch video](https://youtu.be/ujNKVBgv_Vs) you mention FOMO. What is FOMO?
 
