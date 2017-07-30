@@ -16,7 +16,7 @@ Phil Greenway (twitter: [@sikosis](https://twitter.com/sikosis))
 
 #### iOS 9.1+
 
-### Why is the project file called Brisbane Fireworks but the app is called QLD Fireworks?
+### Why is there a folder called Brisbane Fireworks in the project but the app is called QLD Fireworks?
 
 #### Because I originally thought the dataset was only for Brisbane but was actually for the whole of Queensland.
 
@@ -24,8 +24,8 @@ Phil Greenway (twitter: [@sikosis](https://twitter.com/sikosis))
 
 #### Yes. When finished it will be submitted to Apple's App Store under my account.
 
-### In your pitch video you mention FOMO. What is FOMO?
+### In your [pitch video](https://youtu.be/ujNKVBgv_Vs) you mention FOMO. What is FOMO?
 
-#### Fear Of Missing Out. [urbandictionary](http://www.urbandictionary.com/define.php?term=fomo)
+#### Fear Of Missing Out. ([urbandictionary](http://www.urbandictionary.com/define.php?term=fomo))
 
 
