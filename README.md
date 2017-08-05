@@ -24,9 +24,9 @@ Phil Greenway (twitter: [@sikosis](https://twitter.com/sikosis))
 
 #### Because I originally thought the dataset was only for Brisbane but it was actually for the whole of Queensland.
 
-### Will you be submitting this App to Apple's App Store?
+### Is this App available on Apple's App Store?
 
-#### Yes. When it has been finished, it will be submitted to the App Store under my account.
+#### Yes and it available [here](https://itunes.apple.com/au/app/qld-fireworks/id1267664489).
 
 ### In your [pitch video](https://youtu.be/ujNKVBgv_Vs) you mention FOMO. What is FOMO?
 
